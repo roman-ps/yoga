@@ -2,7 +2,40 @@
   background: rgba(73, 64, 72, .87);
 }
 
+.contacts-main {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 23px;
+  line-height: 56px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: #e4e8f6;
+}
+
+.contacts-item__top {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: #d1d9e4;
+}
+
+.contacts-item__bottom {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  color: #d1d9e4;
+}
+
 .contacts-item__btn {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  color: #352a3b;
   background-color: #fded14;
   text-decoration: none;
 }

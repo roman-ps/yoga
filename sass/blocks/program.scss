@@ -3,11 +3,34 @@
 }
 
 .program-main {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 23px;
+  line-height: 56px;
+  font-weight: 700;
+  letter-spacing: .1em;
   background-color: #e1e9f6;
 }
 
 .program-item {
   background-color: #09dbe8;
+}
+
+.program-item__main {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 23px;
+  line-height: 56px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: #352a3b;
+}
+
+.program-item__text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: .1em;
+  color: #352a3b;
 }
 
 .program-item__img {
@@ -18,7 +41,21 @@
   background-color: #e1e9f6;
 }
 
+.program-bottom__main {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 32px;
+  line-height: 50px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .1em;
+}
+
 .program-bottom__btn {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: .1em;
   background-color: #fded14;
   text-decoration: none;
 }

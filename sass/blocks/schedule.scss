@@ -1,10 +1,39 @@
 .schedule {
-  background-image: url(/img/bg_schedule.jpg);
+  background-image: url("../img/mobile-bg_schedule.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.schedule-top {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 23px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: .1em;
+}
+
+.schedule-item__top {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 23px;
+  line-height: 56px;
+  font-weight: 700;
+  letter-spacing: .1em;
+}
+
+.schedule-item__text{
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: .1em;
+}
+
 .schedule-item__btn {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 32px;
+  font-weight: 600;
+  letter-spacing: .1em;
   background-color: #fded14;
   text-decoration: none;
 }

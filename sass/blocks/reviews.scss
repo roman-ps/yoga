@@ -1,3 +1,40 @@
 .reviews {
   background-color: #e4e8f6;
 }
+
+.review-top {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 23px;
+  line-height: 56px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: #352a3b;
+}
+
+.review-item__name {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 600;
+  letter-spacing: .1em;
+  color: #0cdeeb;
+}
+
+.review-item__name-italic {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 19px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .1em;
+  color: #0cdeeb;
+}
+
+.review-item__text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: .1em;
+  color: #083366;
+}

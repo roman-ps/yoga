@@ -1,10 +1,32 @@
 .info {
-  background-image: url(/img/bg_info.jpg);
+  background-image: url("../img/mobile-bg_info.jpg");
   background-repeat: no-repeat;
   background-position: 50%;
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
+.info__top {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: .1em;
+  color: #e0ecff;
+}
+
+.info__bottom {
+  font-size: 23px;
+  line-height: 31px;
+  font-weight: 400;
+  font-style: italic;
+  letter-spacing: .1em;
+  color: #e0ecff;
 }
 
 .info__program {
+  font-size: 17px;
+  line-height: 62px;
+  font-weight: 600;
+  letter-spacing: .1em;
   background-color: #fded14;
   text-decoration: none;
 }
