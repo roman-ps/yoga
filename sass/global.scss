@@ -1,6 +1,13 @@
 .wrapper {
   width: 480px;
   margin: 0 auto;
-  padding: 0 18px;
-  box-sizing: border-box;
+  
+  @media (min-width: 764px) {
+    width: 724px;
+    padding: 0 20px;
+  }
+  
+  @media (min-width: 980px) {
+    width: 940px;
+  }
 }
