@@ -2,7 +2,13 @@
   background-color: #352a3b;
 }
 
+.header__container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header__logo {
+  width: 115px;
   font-family: "Segoe Script";
   font-size: 9px;
   line-height: 11px;
@@ -11,8 +17,7 @@
   color: #e1e9f6;
 }
 
-.header__btn {
-  font-family: "Open Sans", "Arial", sans-serif;
+.header__call {
   font-size: 10px;
   line-height: 23px;
   font-weight: 600;
@@ -22,10 +27,15 @@
 }
 
 .header__menu {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 17px;
   line-height: 23px;
   font-weight: 600;
   letter-spacing: .1em;
   display: none;
+}
+
+.header__btn {
+  width: 29px;
+  height: 24px;
+  font-size: 0;
 }

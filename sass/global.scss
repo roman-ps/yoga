@@ -1,13 +1,17 @@
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+}
+
 .wrapper {
   width: 480px;
   margin: 0 auto;
   
-  @media (min-width: 764px) {
+  @media ($width-tablet) {
     width: 724px;
     padding: 0 20px;
   }
   
-  @media (min-width: 980px) {
+  @media ($width-desktop) {
     width: 940px;
   }
 }

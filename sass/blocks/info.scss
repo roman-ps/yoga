@@ -1,19 +1,26 @@
 .info {
   background-image: url("../img/mobile-bg_info.jpg");
   background-repeat: no-repeat;
-  background-position: 50%;
-  font-family: "Open Sans", "Arial", sans-serif;
+  background-position: 50% 15%;
+  padding-top: 60px;
 }
 
 .info__top {
+  padding: 0 100px;
+  text-align: center;
+  margin: 0 auto;
   font-size: 30px;
   line-height: 40px;
   font-weight: 700;
   letter-spacing: .1em;
   color: #e0ecff;
+  text-transform: uppercase;
 }
 
 .info__bottom {
+  padding: 0 40px 0 54px;
+  margin: 0 auto;
+  margin-bottom: 188px;
   font-size: 23px;
   line-height: 31px;
   font-weight: 400;
@@ -23,10 +30,15 @@
 }
 
 .info__program {
+  display: inline-block;
+  padding: 5px 32px 5px 44px;
+  margin: 0 0 147px 47px;
   font-size: 17px;
   line-height: 62px;
   font-weight: 600;
   letter-spacing: .1em;
+  color: #000000;
   background-color: #fded14;
   text-decoration: none;
+  border-radius: 5px;
 }
