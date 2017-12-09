@@ -2,9 +2,12 @@
   background-image: url("../img/mobile-bg_schedule.jpg");
   background-repeat: no-repeat;
   background-position: center;
+  color: #ffffff;
 }
 
 .schedule-top {
+  margin-top: 0px;
+  padding-top: 10px;
   font-size: 23px;
   line-height: 30px;
   font-weight: 700;
@@ -27,10 +30,15 @@
 }
 
 .schedule-item__btn {
+  display: inline-block;
+  padding: 15px 42px 15px 39px;
+  margin-bottom: 25px;
   font-size: 14px;
   line-height: 32px;
   font-weight: 600;
   letter-spacing: .1em;
   background-color: #fded14;
+  border-radius: 5px;
+  color: #352a3b;
   text-decoration: none;
 }
