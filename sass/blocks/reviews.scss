@@ -1,8 +1,10 @@
 .reviews {
+  padding: 50px 0 50px 0;
   background-color: #e4e8f6;
 }
 
 .review-top {
+  margin-top: 0;
   font-size: 23px;
   line-height: 56px;
   font-weight: 700;
@@ -11,17 +13,23 @@
   text-transform: uppercase;
 }
 
+.review-item__img {
+  margin: 30px 0;
+  display: block;
+}
+
 .review-item__name {
-  font-size: 17px;
+  width: 195px;
+  font-size: 15px;
   line-height: 22px;
   font-weight: 600;
-  letter-spacing: .1em;
+  letter-spacing: .06em;
   color: #0cdeeb;
 }
 
 .review-item__name-italic {
-  font-size: 17px;
-  line-height: 19px;
+  font-size: 15px;
+  line-height: 22px;
   font-weight: 400;
   font-style: italic;
   letter-spacing: .1em;
@@ -29,7 +37,7 @@
 }
 
 .review-item__text {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 22px;
   font-weight: 400;
   letter-spacing: .1em;
