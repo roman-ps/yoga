@@ -1,16 +1,18 @@
 .schedule {
   padding-top: 70px; 
-  background-image: url("../img/mobile-bg_schedule.jpg");
+  background-image: url("../img/tablet-bg_schedule.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
+  background-size: cover;
   color: #ffffff;
 }
 
 .schedule-list {
-  padding-bottom: 57px;
+  padding: 0 0 57px 20px;
 }
 
 .schedule-top {
+  padding-left: 20px;
   margin-top: 0px;
   font-size: 23px;
   line-height: 30px;
@@ -50,7 +52,7 @@
 @media ($width-tablet) {
   
   .schedule {
-    background-image: url("../../img/tablet-bg_schedule.jpg");
+    background-image: url("../../img/desktop-bg_schedule.jpg");
   }
 }
 

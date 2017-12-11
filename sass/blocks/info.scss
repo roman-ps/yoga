@@ -1,8 +1,8 @@
 .info {
-  background-image: url("../img/mobile-bg_info.jpg");
+  background-image: url("../img/tablet-bg_info.jpg");
   background-repeat: no-repeat;
   background-position: 50% 15%;
-  padding-top: 60px;
+  padding: 60px 0 100px 0;
 }
 
 .info__top {
@@ -29,9 +29,10 @@
 }
 
 .info__program {
-  display: inline-block;
+  width: 275px;
+  display: block;
   padding: 5px 32px 5px 44px;
-  margin: 0 0 147px 47px;
+  margin: 0 auto;
   font-size: 17px;
   line-height: 62px;
   font-weight: 600;
@@ -45,14 +46,14 @@
 @media ($width-tablet) {
   
   .info {
-    background-image: url("../img/tablet-bg_info.jpg");
+    background-image: url("../img/desktop-bg_info.jpg");
   } 
   
   .info__top {
     padding: 0 20px;
   }
   
-  .info__top div {
+  .info__top-span {
     display: inline;
   }
 }

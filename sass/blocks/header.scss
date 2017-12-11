@@ -4,6 +4,7 @@
 }
 
 .header__container {
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -93,4 +94,27 @@
 
 @media ($width-tablet) {
   
+  .header__right {
+    width: 400px;
+  }
+}
+
+@media ($width-desktop) {
+  
+  .header__right {
+    width: 730px;
+  }
+  
+  .header__menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .header__menu-item {
+    margin-right: 10px;
+  }
+  
+  .header__btn {
+    display: none;
+  }
 }
