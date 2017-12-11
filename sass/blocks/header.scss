@@ -114,6 +114,17 @@
     margin-right: 10px;
   }
   
+  .header__menu-link {
+    border-bottom: 2px solid transparent;
+    text-decoration: none;
+    color: #ffffff;
+    
+    &--active {
+      border-bottom: 2px solid #fded14;
+      color: #fded14;
+    }
+  }
+  
   .header__btn {
     display: none;
   }
