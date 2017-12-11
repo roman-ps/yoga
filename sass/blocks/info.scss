@@ -46,19 +46,39 @@
 @media ($width-tablet) {
   
   .info {
+    padding-top: 167px;
+    padding-bottom: 175px;
     background-image: url("../img/desktop-bg_info.jpg");
+    background-position: 57% 22%;
   } 
   
   .info__top {
     padding: 0 20px;
+    font-size: 32px;
+    line-height: 50px;
   }
   
   .info__top-span {
     display: inline;
   }
+  
+  .info__bottom {
+    margin-bottom: 103px;
+    font-size: 27px;
+    line-height: 50px;
+  }
 }
 
 @media ($width-desktop) {
   
+  .info {
+    background-position: 50% 22%;
+  }
+  .info__top {
+    font-size: 40px;
+  }
   
+  .info__bottom {
+    font-size: 35px;
+  }
 }

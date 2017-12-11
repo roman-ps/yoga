@@ -54,6 +54,13 @@
   .schedule {
     background-image: url("../../img/desktop-bg_schedule.jpg");
   }
+  
+  .schedule-item {
+    width: 530px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 @media ($width-desktop) {

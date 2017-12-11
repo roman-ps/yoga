@@ -14,3 +14,11 @@ body {
     width: 980px;
   }
 }
+
+.wrapper--program {
+  
+  @media ($width-desktop) {
+    display: flex;
+    justify-content: space-between;
+  }
+}

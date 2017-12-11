@@ -61,3 +61,10 @@
   border-radius: 5px;
   text-decoration: none;
 }
+
+@media ($width-tablet) {
+  
+  .contacts {
+    margin-left: 46px;
+  }
+}

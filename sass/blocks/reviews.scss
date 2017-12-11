@@ -45,6 +45,18 @@
   font-size: 13px;
   line-height: 22px;
   font-weight: 400;
-  letter-spacing: .1em;
+  letter-spacing: .08em;
   color: #083366;
+}
+
+@media ($width-tablet) {
+  
+  .review-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .review-item__text {
+    letter-spacing: .06em;
+  }
 }

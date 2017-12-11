@@ -53,6 +53,7 @@
   line-height: 50px;
   font-weight: 400;
   font-style: italic;
+  color: #083369;
   letter-spacing: .1em;
 }
 
@@ -75,5 +76,27 @@
   
   .program-item {
     display: flex;
+    flex-direction: row-reverse;
+    
+    &--right {
+      flex-direction: row;
+    }
+  }
+  
+  .program-item__text {
+    letter-spacing: .08em;
+  }
+  
+  .program-bottom__main {
+    padding: 0;
+  }
+  
+}
+
+@media ($width-desktop) {
+  
+  .program-item {
+    flex-direction: column-reverse;
+    width: 291px;
   }
 }

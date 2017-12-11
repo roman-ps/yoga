@@ -20,14 +20,6 @@
   font-weight: 400;
   letter-spacing: .1em;
   color: #e1e9f6;
-  
-  &:hover {
-    opacity: .7;
-  }
-  
-  &:active {
-    opacity: .3;
-  }
 }
 
 .footer-logo::before {
@@ -49,6 +41,7 @@
   border: 1px solid #a4a5b3;
   border-radius: 3px;
   text-decoration: none;
+  opacity: .78;
 }
 
 .footer-copyright {
@@ -59,4 +52,22 @@
   font-weight: 400;
   letter-spacing: .1em;
   color: #e1e9f6;
+  opacity: .78;
+}
+
+@media ($width-tablet) {
+  
+  .footer-copyright {
+    width: 350px;
+    font-size: 13px;
+    opacity: .55;
+  }
+  
+  .footer-btn {
+    opacity: .55;
+  }
+  
+  .footer-logo {
+    opacity: .65;
+  }
 }
