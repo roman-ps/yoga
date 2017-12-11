@@ -1,0 +1,5 @@
+@mixin pseudo() {
+  position: absolute;
+  content: '';
+  display: block;
+}

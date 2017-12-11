@@ -1,11 +1,15 @@
 .program {
+}
+
+.program-container {
+  background-color: #e1e9f6;
   
 }
 
 .program-main {
   margin: 0;
   padding: 30px 0 20px 0;
-  text-align: center;
+  text-align: left;
   font-size: 23px;
   line-height: 56px;
   font-weight: 700;
@@ -64,6 +68,6 @@
   letter-spacing: .1em;
   background-color: #fded14;
   color: #352a3b;
-  border-radius: 5px;
+  border-radius: 6px;
   text-decoration: none;
 }

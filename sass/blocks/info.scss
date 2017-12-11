@@ -18,8 +18,7 @@
 }
 
 .info__bottom {
-  padding: 0 40px 0 54px;
-  margin: 0 auto;
+  text-align: center;
   margin-bottom: 188px;
   font-size: 23px;
   line-height: 31px;
@@ -41,4 +40,26 @@
   background-color: #fded14;
   text-decoration: none;
   border-radius: 5px;
+}
+
+@media ($width-tablet) {
+  
+  .info {
+    background-image: url("../img/tablet-bg_info.jpg");
+  } 
+  
+  .info__top {
+    padding: 0 20px;
+  }
+  
+  .info__top div {
+    display: inline;
+  }
+}
+
+@media ($width-desktop) {
+  
+  .info {
+    background-image: url("../../img/desktop-bg_info.jpg");
+  }
 }

@@ -46,3 +46,17 @@
   color: #352a3b;
   text-decoration: none;
 }
+
+@media ($width-tablet) {
+  
+  .schedule {
+    background-image: url("../../img/tablet-bg_schedule.jpg");
+  }
+}
+
+@media ($width-desktop) {
+  
+  .schedule {
+    background-image: url("../../img/desktop-bg_schedule.jpg");
+  }
+}
