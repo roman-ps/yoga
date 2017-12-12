@@ -1,5 +1,5 @@
 .header {
-  padding: 30px 0 20px 0;
+  padding: 27px 0 24px 0;
   background-color: #352a3b;
 }
 
@@ -12,7 +12,7 @@
 
 .header__logo {
   position: relative;
-  margin-left: 55px;
+  margin: 5px 0 0 55px;
   width: 115px;
   font-family: "Segoe Script";
   font-size: 9px;
@@ -36,7 +36,7 @@
   height: 31px;
   background: url("../img/logo.png") no-repeat;
   left: -55px;
-  bottom: -3px;
+  bottom: 0;
 }
 
 .header__right {
@@ -47,7 +47,7 @@
 }
 
 .header__call {
-  padding: 9px 18px 9px 22px;
+  padding: 7px 18px 7px 22px;
   font-size: 10px;
   line-height: 23px;
   font-weight: 600;
@@ -67,8 +67,8 @@
 
 .header__btn {
   position: relative;
-  width: 34px;
-  height: 28px;
+  width: 28px;
+  height: 24px;
   font-size: 0;
   background: #fded14;
   border: 0;
@@ -78,7 +78,7 @@
   @include pseudo;
   height: 5px;
   width: 100%;
-  top: 6px;
+  top: 4px;
   left: 0;
   background: #352a3b;
 }
@@ -87,7 +87,7 @@
   @include pseudo;
   height: 5px;
   width: 100%;
-  bottom: 6px;
+  bottom: 5px;
   left: 0;
   background: #352a3b;
 }
