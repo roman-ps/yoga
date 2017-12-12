@@ -1,5 +1,5 @@
 .schedule {
-  padding-top: 70px; 
+  padding-top: 76px; 
   background-image: url("../img/tablet-bg_schedule.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
@@ -8,12 +8,17 @@
 }
 
 .schedule-list {
-  padding: 0 0 57px 20px;
+  padding: 0 0 75px 20px;
+}
+
+.schedule-item {
+  margin-top: 11px;
 }
 
 .schedule-top {
-  padding-left: 20px;
-  margin-top: 0px;
+  padding-left: 18px;
+  width: 310px;
+  margin: 0 0 17px 0;
   font-size: 23px;
   line-height: 30px;
   font-weight: 700;
@@ -25,11 +30,12 @@
   font-size: 22px;
   line-height: 56px;
   font-weight: 700;
-  letter-spacing: .1em;
+  letter-spacing: .08em;
 }
 
 .schedule-item__text{
-  margin-top: 0;
+  margin: 0 0 19px 32px;
+//  margin-left: 32px;
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
@@ -38,7 +44,7 @@
 
 .schedule-item__btn {
   display: inline-block;
-  padding: 15px 42px 15px 39px;
+  padding: 7px 39px 5px 36px;
   font-size: 14px;
   line-height: 32px;
   font-weight: 600;
@@ -47,6 +53,10 @@
   border-radius: 5px;
   color: #352a3b;
   text-decoration: none;
+  
+  &--last {
+    margin-top: 10px;
+  }
 }
 
 @media ($width-tablet) {
