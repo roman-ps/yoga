@@ -65,11 +65,32 @@
     background-image: url("../../img/desktop-bg_schedule.jpg");
   }
   
+  .schedule-top {
+    width: 500px;
+    padding-left: 0;
+    margin: 0 0 17px 54px;
+  }
+  
+  .schedule-list {
+    margin-top: 46px;
+    padding: 0 0 37px 24px;
+  }
+  
   .schedule-item {
-    width: 530px;
+    width: 525px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    outline: 1px solid red;
+    margin-top: 0;
+  }
+  
+  .schedule-item__btn {
+    margin-bottom: -3px;
+    
+    &--last {
+      margin: -12px 0 0 0;
+    }
   }
 }
 

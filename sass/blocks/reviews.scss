@@ -51,12 +51,33 @@
 
 @media ($width-tablet) {
   
+  .review {
+    padding: 50px 0 68px 0;
+  }
+  
   .review-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 28px;
+    padding: 0 20px;
+  }
+  
+  .review-item {
+    padding: 0;
+    width: 228px;
+  }
+  
+  .review-item__name-italic {
+    display: block;
+    margin: -3px 0 2px 0;
+    
   }
   
   .review-item__text {
     letter-spacing: .06em;
+  }
+  
+  .review-item__img {
+    margin-bottom: 27px;
   }
 }

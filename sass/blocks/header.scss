@@ -94,8 +94,35 @@
 
 @media ($width-tablet) {
   
+  .header__container {
+    padding: 0 24px 0 20px;
+  }
+  
+  .header__logo {
+    margin: 5px 0 0 62px;
+  }
+  
+  .header__logo::before {
+    left: -61px;
+  }
+  
   .header__right {
-    width: 400px;
+    width: 394px;
+  }
+  
+  .header__btn {
+    align-self: flex-start;
+    width: 34px;
+    height: 28px;
+  }
+  
+  .header__btn::before {
+    height: 6px;
+    top: 6px;
+  }
+  
+  .header__btn::after {
+    height: 6px;
   }
 }
 

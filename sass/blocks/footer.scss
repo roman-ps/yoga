@@ -57,6 +57,10 @@
 
 @media ($width-tablet) {
   
+  .footer {
+    padding: 29px 0 25px 0;
+  }
+  
   .footer-copyright {
     width: 350px;
     font-size: 13px;
@@ -64,10 +68,17 @@
   }
   
   .footer-btn {
+    margin-left: 50px;
+    padding: 6px 16px 6px 17px;
     opacity: .55;
   }
   
   .footer-logo {
+    margin-left: 63px;
     opacity: .65;
+  }
+  
+  .footer-logo::before {
+    left: -62px;
   }
 }

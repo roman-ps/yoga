@@ -87,12 +87,39 @@
     }
   }
   
+  .program-main {
+    padding: 46px 0 24px 18px;
+  }
+  
+  .program-item__main {
+    margin: 28px 0 7px 43px;
+    
+    &--right {
+      margin: 28px 0 7px 3px;
+    }
+  }
+  
   .program-item__text {
+    padding: 0 133px 0 61px;
     letter-spacing: .08em;
+    
+    &--right {
+      padding: 0 76px 0 22px;
+    }
+  }
+  
+  .program-bottom {
+    margin-top: 15px;
+    padding-bottom: 53px;
   }
   
   .program-bottom__main {
     padding: 0;
+    margin-bottom: 15px;
+  }
+  
+  .program-bottom__btn {
+    padding: 13px 43px;
   }
   
 }
