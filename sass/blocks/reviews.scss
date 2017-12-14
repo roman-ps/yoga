@@ -81,3 +81,34 @@
     margin-bottom: 27px;
   }
 }
+
+@media ($width-desktop) {
+  
+  .reviews {
+    padding: 50px 0 63px 0;
+  }
+  
+  .review-top {
+    padding-left: 35px;
+  }
+  
+  .review-item {
+    width: 291px;
+    text-align: center;
+  }
+  
+  .review-item__img,
+  .review-item__name {
+    margin: 0 auto;
+  }
+  
+  .review-item__name {
+    width: 100%;
+    margin-top: 26px;
+    margin-bottom: 12px;
+  }
+  
+  .review-item__name-italic {
+    display: inline;
+  }
+}

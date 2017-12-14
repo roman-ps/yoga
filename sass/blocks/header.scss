@@ -128,8 +128,20 @@
 
 @media ($width-desktop) {
   
+  .header {
+    padding: 8px 0 16px 0;
+  }
+  
+  .header__container {
+    padding: 0 20px 0 20px;
+  }
+  
+  .header__logo {
+    margin: 9px 0 0 57px;
+  }
+  
   .header__right {
-    width: 730px;
+    width: 766px;
   }
   
   .header__menu {
@@ -138,7 +150,7 @@
   }
   
   .header__menu-item {
-    margin-right: 10px;
+    margin-right: 18px;
   }
   
   .header__menu-link {

@@ -70,7 +70,11 @@
     margin-left: 46px;
   }
   
-  .contacts-item__bottom {
-//    margin-left: 6px;
+}
+
+@media ($width-desktop) {
+  
+  .contacts {
+    margin-left: 52px;
   }
 }

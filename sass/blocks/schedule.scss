@@ -65,6 +65,10 @@
     background-image: url("../../img/desktop-bg_schedule.jpg");
   }
   
+  .schedule-container {
+    
+  }
+  
   .schedule-top {
     width: 500px;
     padding-left: 0;
@@ -81,7 +85,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    outline: 1px solid red;
     margin-top: 0;
   }
   
@@ -96,5 +99,16 @@
 
 @media ($width-desktop) {
   
+  .schedule {
+    padding-top: 0;
+  }
   
+  .schedule-container {
+    width: 597px;
+    padding-top: 76px;
+    padding-bottom: 17px;
+    margin-left: 342px;
+    padding-left: 20px;
+    background: rgba(53, 42, 59, .7);
+  }
 }

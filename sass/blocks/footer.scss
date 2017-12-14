@@ -82,3 +82,22 @@
     left: -62px;
   }
 }
+
+@media ($width-desktop) {
+  
+  .footer {
+    padding: 35px 0 25px 0;
+  }
+  
+  .footer-logo {
+    margin-right: 171px;
+  }
+  
+  .footer-btn {
+    padding: 6px 12px 6px 12px;
+  }
+  
+  .footer-copyright {
+    width: 242px;
+  }
+}

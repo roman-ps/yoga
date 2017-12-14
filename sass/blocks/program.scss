@@ -126,8 +126,43 @@
 
 @media ($width-desktop) {
   
+  .program-main {
+    padding-left: 489px;
+  }
+  
   .program-item {
-    flex-direction: column-reverse;
+    flex-direction: column;
     width: 291px;
+  }
+  
+  .program-item__container {
+    order: 1;
+  }
+  
+  .program-item__main {
+    margin: 0;
+    padding: 4px 0 0 37px;
+  }
+  
+  .program-item__text {
+    padding: 0 12px 11px 37px;
+    margin: -6px 0 0 0;
+  }
+  
+  .program-item__img {
+    order: 2;
+  }
+  
+  .program-bottom {
+    margin-top: 29px;
+    padding-bottom: 62px;
+  }
+  
+  .program-bottom__main {
+    margin-bottom: 8px;
+  }
+  
+  .program-bottom__btn {
+    padding: 13px 58px;
   }
 }
