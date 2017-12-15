@@ -1,10 +1,14 @@
 .schedule {
-  padding-top: 76px; 
   background-image: url("../img/tablet-bg_schedule.jpg");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
   color: #ffffff;
+}
+
+.schedule-container {
+  padding-top: 76px;
+  background: rgba(53, 42, 59, .7); 
 }
 
 .schedule-list {
@@ -35,7 +39,6 @@
 
 .schedule-item__text{
   margin: 0 0 19px 32px;
-//  margin-left: 32px;
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
@@ -57,16 +60,27 @@
   &--last {
     margin-top: 10px;
   }
+  
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  &:active {
+    opacity: .5;
+  }
 }
 
 @media ($width-tablet) {
   
   .schedule {
     background-image: url("../../img/desktop-bg_schedule.jpg");
+    background-size: auto;
+    background-position: 100% 0;
   }
   
   .schedule-container {
-    
+    width: 620px;
   }
   
   .schedule-top {
@@ -98,17 +112,12 @@
 }
 
 @media ($width-desktop) {
-  
-  .schedule {
-    padding-top: 0;
-  }
-  
+    
   .schedule-container {
     width: 597px;
     padding-top: 76px;
     padding-bottom: 17px;
     margin-left: 342px;
     padding-left: 20px;
-    background: rgba(53, 42, 59, .7);
   }
 }

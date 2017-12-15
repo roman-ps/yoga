@@ -41,6 +41,15 @@
   background-color: #fded14;
   text-decoration: none;
   border-radius: 5px;
+  
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  &:active {
+    opacity: .5;
+  }
 }
 
 @media ($width-tablet) {

@@ -21,6 +21,10 @@
 .review-item__img {
   margin-bottom: 28px;
   display: block;
+  
+  &:hover {
+    filter: grayscale(100);
+  }
 }
 
 .review-item__name {

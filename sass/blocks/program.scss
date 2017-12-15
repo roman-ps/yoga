@@ -1,4 +1,4 @@
-.program-container {
+.program {
   background-color: #e1e9f6;
 }
 
@@ -10,7 +10,11 @@
   line-height: 56px;
   font-weight: 700;
   letter-spacing: .1em;
+  background-color: #e1e9f6;
   text-transform: uppercase;
+}
+
+.program-container {
   background-color: #e1e9f6;
 }
 
@@ -74,6 +78,15 @@
   color: #352a3b;
   border-radius: 5px;
   text-decoration: none;
+  
+  &:hover {
+    background-color: #09dbe8;
+    color: #ffffff;
+  }
+  
+  &:active {
+    opacity: .5;
+  }
 }
 
 @media ($width-tablet) {
@@ -121,14 +134,9 @@
   .program-bottom__btn {
     padding: 13px 43px;
   }
-  
 }
 
 @media ($width-desktop) {
-  
-  .program-main {
-    padding-left: 489px;
-  }
   
   .program-item {
     flex-direction: column;

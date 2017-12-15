@@ -20,6 +20,7 @@
   font-weight: 400;
   letter-spacing: .1em;
   color: #e1e9f6;
+  cursor: pointer;
   
   &:hover {
     opacity: .7;
@@ -55,6 +56,15 @@
   background-color: #fded14;
   border-radius: 5px;
   text-decoration: none;
+  
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  &:active {
+    opacity: .5;
+  }
 }
 
 .header__menu {
@@ -161,6 +171,14 @@
     &--active {
       border-bottom: 2px solid #fded14;
       color: #fded14;
+    }
+    
+    &:hover {
+      opacity: .6;
+    }
+    
+    &:active {
+      opacity: .3;
     }
   }
   

@@ -9,6 +9,11 @@
   position: absolute;
   top: 112px;
   background: rgba(73, 64, 72, .87);
+  
+  &:hover {
+    color: #ffffff;
+    background-color: #000000;
+  }
 }
 
 .contact-map {
@@ -62,6 +67,15 @@
   background-color: #fded14;
   border-radius: 5px;
   text-decoration: none;
+  
+  &:hover {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  &:active {
+    opacity: .5;
+  }
 }
 
 @media ($width-tablet) {
@@ -69,7 +83,6 @@
   .contacts {
     margin-left: 46px;
   }
-  
 }
 
 @media ($width-desktop) {
