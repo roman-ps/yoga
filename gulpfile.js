@@ -31,7 +31,7 @@ gulp.task('serve', function(){
 
 gulp.task('tinypng', function() {
   gulp.src('img/*')
-  .pipe(imagemin('OqvQ0pn0iAaJbR8QeJbvbVf5t41GplSB'))
+  .pipe(imagemin('OqvQ0pn0iAaJbR8QeJbvbVf5t41GplS'))
   .pipe(gulp.dest('img-min'));
 });
 
