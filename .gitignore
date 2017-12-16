@@ -6,6 +6,5 @@ build
 *.pdf
 *.psd
 *.sublime*
-css/*.css
 node_modules/
 Thumbs.db
